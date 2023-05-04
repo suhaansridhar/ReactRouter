@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ordered--list--links{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.ordered--list--links li{
+  text-decoration: none;
+  color: black;
+}
+
+.ordered--list--links li:visited{
+  text-decoration: none;
+  color: black;
+}
